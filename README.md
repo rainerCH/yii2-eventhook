@@ -5,7 +5,8 @@ Forward yii2 events to different targets (Web, MQTT ...)
 
 In your config.php:
 
-```
+```php
+<?php
 $config = [
     $bootstrap = ['webhook'],
     $components = [
