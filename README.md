@@ -8,8 +8,8 @@ In your config.php:
 ```php
 <?php
 $config = [
-    $bootstrap = ['webhook'],
-    $components = [
+    'bootstrap' = ['webhook'],
+    'components' = [
         'webook' => [
             'class' => 'rainerch\eventhook\HttpPost',
             'events' => [
