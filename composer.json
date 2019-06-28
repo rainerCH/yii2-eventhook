@@ -1,0 +1,15 @@
+{
+  "name": "rainerch/yii2-eventhook",
+  "description": "Forward yii2 events to different targets",
+  "keywords": ["yii2", "webhook"],
+  "type": "yii2-extension",
+  "require": {
+    "yiisoft/yii2": "~2.0",
+    "bluerhinos/phpmqtt": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "rainerch\\eventhook\\": "src"
+    }
+  }
+}
